@@ -15,6 +15,7 @@ void main() {
 </pre>
 
 결과 화면
+
 ![image](https://github.com/user-attachments/assets/03ab4c5e-a2a1-4408-ba20-5a6b0323cca1)
 ![image](https://github.com/user-attachments/assets/b8f735ff-5739-49d0-8219-70655b7c4aa9)
 ![image](https://github.com/user-attachments/assets/c13beb64-6196-40f1-833f-43c3e5ae9aed)
@@ -23,6 +24,7 @@ void main() {
 n = 10 일때
 
 (1) 꽉찬 사각형 코드
+
 <pre>
 <code>
 void main() {
@@ -36,9 +38,11 @@ void main() {
 </pre>
 
 결과 화면
+
 ![image](https://github.com/user-attachments/assets/b3f2d7b0-1b0f-431e-913b-dfe6bd9ddbf8)
 
 (2) 테두리 사각형 코드
+
 <pre>
 <code>
 void main() {
@@ -58,6 +62,7 @@ void main() {
 </pre>
 
 결과 화면
+
 ![image](https://github.com/user-attachments/assets/afe79b4c-455e-4738-85d7-66c450a67331)
 
 (3) /표시 코드
@@ -74,6 +79,7 @@ void main() {
 </pre>
 
 결과 화면
+
 ![image](https://github.com/user-attachments/assets/bf7fb28a-4481-49d1-8c62-92e4dfeeb34f)
 
 (4) \표시 코드
@@ -90,6 +96,7 @@ void main() {
 </pre>
 
 결과 화면
+
 ![image](https://github.com/user-attachments/assets/daa00fb3-f8c9-458d-b9b5-fe9553c82699)
 
 (5) X표시 코드
@@ -116,6 +123,10 @@ void main() {
  </code>
 </pre>
 
+결과화면
+
+![image](https://github.com/user-attachments/assets/b4424e1a-02e7-4b71-97ee-72e1d16192ff)
+
 3. 년/월/일을 입력하면 요일을 출력하는 코드
 <pre>
 <code>
@@ -133,6 +144,7 @@ void main() {
 </pre>
 
 결과 화면
+
 ![image](https://github.com/user-attachments/assets/a343768d-045e-4017-9426-0e78a157b53e)
 
 
