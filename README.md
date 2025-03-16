@@ -14,7 +14,7 @@ void main() {
 </code>
 </pre>
 
-# 결과 화면
+결과 화면
 
 ![image](https://github.com/user-attachments/assets/03ab4c5e-a2a1-4408-ba20-5a6b0323cca1)
 ![image](https://github.com/user-attachments/assets/b8f735ff-5739-49d0-8219-70655b7c4aa9)
@@ -95,7 +95,7 @@ void main() {
      </code>
 </pre>
 
-# 결과 화면
+결과 화면
 
 ![image](https://github.com/user-attachments/assets/daa00fb3-f8c9-458d-b9b5-fe9553c82699)
 
