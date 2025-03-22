@@ -13,7 +13,7 @@
 (3) 클래스
 객체의 설계도, 설계도에 의해 만들어진 형태를 객체, 또는 클래스를 인스턴스화 했다고 함.
 
-코드 예시
+- 코드 예시
 class Person {
    String name;
    int age;
@@ -27,7 +27,7 @@ class Person {
 - 이름 앞에 ‘_’ 를 붙이면 외부에서 접근할 수 없음
 - 붙이지 않으면 외부에서 접근할 수 있음
 
-코드 예시
+- 코드 예시
 class Person {
   String name;
   int _age;
@@ -41,5 +41,78 @@ import 'person.dart;
 ----생략----
 var person = Person();
 person._age = 10; // 에러 접근불가
+
+(4) 생성자
+
+- 코드예시
+기본 생성자는
+class Person {
+   String name;
+   int _age;
+} 일 때,
+var person = Person();
+
+class Person {
+   String name;
+   int _age;
+
+   Person({this.name, this._age}); 
+}
+
+일 때,
+var person = Person();
+var person = Person(name: ‘홍길동’, _age: 20);
+
+(5) 게터, 세터
+
+- 코드 예시
+class Person {
+   String name;
+   int _age;
+
+   int get age => _age;
+}
+
+var person = Person();
+print(person.age);
+
+class Rectangle {
+   num left, top, width, height;
+
+   Rectangle(this.left, this.top, this.width, this.height);
+
+   num get right => left + width;
+   set right(num value) => left = value - width;
+   num get bottom => top + height;
+   set bottom(num value) => top = value -height;
+
+(6) 상속
+부모 클래스의 상태와 행위 즉, 고유함을 자식 클래스에게 물려주는 것
+예) 도형 ← 삼각형
+
+- 코드 예시
+class Hero {
+   String name = ‘영웅’;
+
+   void run() {}
+}
+
+class SuperHero extends Hero {
+   @override
+   void run() {
+      super.run();		
+      this.fly();		
+   }
+
+   void fly() {}
+}
+
+void main() {
+   var hero = SuperHero();
+   hero.run();
+   hero.fly();
+   print(hero.name);
+
+
 
 
