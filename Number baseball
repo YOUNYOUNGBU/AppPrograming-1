@@ -2,6 +2,7 @@
 지금은 하나도 몰라서 코드 전체를 copilot 에게 물어봤다.
 아주 잘 작동된다.
 이걸 혼자 짜려면 얼마나 걸리려나
+종강하고 숫자 야구게임 앱 만들어야겠다. 그때는 혼자 짤 수 있겠지??
 
 import 'dart:math';
 import 'package:flutter/material.dart';
