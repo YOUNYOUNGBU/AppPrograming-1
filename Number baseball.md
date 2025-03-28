@@ -5,6 +5,8 @@
 이걸 혼자 짜려면 얼마나 걸리려나
 
 (1) main.dart
+<pre>
+<code>
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'dart:io'; // exit(0)을 사용하기 위해 필요
@@ -210,8 +212,12 @@ class MainMenu extends StatelessWidget {
     );
   }
 }
+</code>
+</pre>
 
 (2) three_digit_game.dart
+<pre>
+<code>
 import 'dart:math';
 import 'package:flutter/material.dart';
 
@@ -543,8 +549,13 @@ class _ThreeDigitGameState extends State<ThreeDigitGame> {
     );
   }
 }
+     </code>
+   </pre>
 
 (3) four_digit_game.dart
+
+<pre>
+<code>
 import 'dart:math';
 import 'package:flutter/material.dart';
 
@@ -858,6 +869,9 @@ class _FourDigitGameState extends State<FourDigitGame> {
     );
   }
 }
+
+</pre>
+</code>
 
 결과 화면
 
