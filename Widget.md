@@ -1,6 +1,6 @@
 # 기본 위젯
 # (1) 화면 배치에 쓰는 위젯
-1. Container
+## 1. Container
 - 너비, 높이가 있는 영역
 - width, height, padding, margin, child 속성
 - ※ child 속성으로 자식 위젯을 담을 수 있음
